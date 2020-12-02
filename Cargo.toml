@@ -1,0 +1,11 @@
+[package]
+name = "rpi_lfa_rppal"
+version = "0.1.0"
+authors = ["Alexey Voznyuk <me@swizard.info>"]
+description = "RaspberryPi tools for loop free architecture framework (rppal bindings)"
+edition = "2018"
+
+[dependencies]
+rpi_lfa = { git = "https://github.com/swizard0/rpi_lfa.git" }
+
+rppal = "^0.11"
